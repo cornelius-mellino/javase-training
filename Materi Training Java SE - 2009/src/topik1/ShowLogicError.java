@@ -1,0 +1,20 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package topik1;
+
+/**
+ *
+ * @author Koo
+ */
+public class ShowLogicError {
+  public static void main(String[] args) {
+    // Add number1 to number2
+    int number1 = 3;
+    int number2 = 3;
+    number2 += number1 + number2;
+    System.out.println("number2 is " + number2);
+  }
+}
